@@ -31,9 +31,11 @@ This folder contains scripts for installing additional packages to PonyTrails.
 * GPAC: A toolbox which contains `MP4Box`
 * MKVToolnix
 * Qalculate!
+* qBitTorrent
 * QEMU (`qemu`, x86 and arm only)
 * SimpleScreenRecorder
 * Syncthing (`syncthing`): A decentralized file syncing tool.
+* uGet
 * virt-manager
 
 ### Multilingual Input Method
@@ -62,6 +64,9 @@ This folder contains scripts for installing additional packages to PonyTrails.
 * Nyx (`nyx`): Monitor of Tor.
 * I2Pd (`i2pd`): A C++ implementation of I2P router.
 * cgproxy: Force proxy all connections via a transparent proxy.
+* WireGuard
+* ProxyChains
+* (and 3 omitted...)
 
 ## Browser Extensions (Firefox)
 
