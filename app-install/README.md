@@ -45,6 +45,7 @@ This folder contains scripts for installing additional packages to PonyTrails.
 * Syncthing (`syncthing`): A decentralized file syncing tool.
 * uGet
 * virt-manager
+* (and 9 omitted...)
 
 ### Multilingual Input Method
 * Mozc (`ibus-mozc`): A fully-featured Japanese input method.
@@ -66,15 +67,6 @@ This folder contains scripts for installing additional packages to PonyTrails.
 * Dino (`dino-im`): An open-source XMPP client.
 * Spectual: An open-source Matrix client.
 * HexChat: An open-source IRC client.
-
-### Networking
-* Tor (`tor`)
-* Nyx (`nyx`): Monitor of Tor.
-* I2Pd (`i2pd`): A C++ implementation of I2P router.
-* cgproxy: Force proxy all connections via a transparent proxy.
-* WireGuard
-* ProxyChains
-* (and 3 omitted...)
 
 ## Browser Extensions (Firefox)
 
