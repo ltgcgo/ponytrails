@@ -21,7 +21,7 @@ This folder contains scripts for installing additional packages to PonyTrails.
 * Shotwell &lt;GNOME only>
 * VLC Media Player
 
-### 
+### Development
 * C/C++: GCC
 * Go
 * Java: OpenJDK
