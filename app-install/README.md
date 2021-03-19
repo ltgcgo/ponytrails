@@ -43,6 +43,7 @@ This folder contains scripts for installing additional packages to PonyTrails.
 * GPAC: A toolbox which contains `MP4Box`.
 * HexEdit (CLI)
 * MKVToolnix
+* Netcat
 * Qalculate!
 * qBitTorrent
 * QEMU (`qemu`, x86 and arm only)
