@@ -30,6 +30,7 @@ This folder contains scripts for installing additional packages to PonyTrails.
 ### System & Device Manipulation
 * Boot-Repair: Repair and recover boot records.
 * CloneZilla
+* chntpw: Offline Windows password and registry editor.
 * F3: Fight Flash Fraud!
 * GParted: A GUI disk partitioning tool.
 
