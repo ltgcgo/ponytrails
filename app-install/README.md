@@ -28,8 +28,9 @@ This folder contains scripts for installing additional packages to PonyTrails.
 * Rust
 
 ### System & Device Manipulation
-* CloneZilla
 * Boot-Repair: Repair and recover boot records.
+* CloneZilla
+* F3: Fight Flash Fraud!
 * GParted: A GUI disk partitioning tool.
 
 ### Utilities
@@ -38,12 +39,17 @@ This folder contains scripts for installing additional packages to PonyTrails.
 * Flameshot: Fully-featured tool for taking screenshots.
 * GeoGebra
 * GoldenDict
-* GPAC: A toolbox which contains `MP4Box`
+* GPAC: A toolbox which contains `MP4Box`.
+* HexEdit (CLI)
 * MKVToolnix
 * Qalculate!
 * qBitTorrent
 * QEMU (`qemu`, x86 and arm only)
 * SimpleScreenRecorder
+* tcpping: Ping via TCP 
+* tcptraceroute: Trace network routing via TCP.
+* Traceroute
+* udpPing: Ping via UDP.
 * uGet
 * virt-manager
 * (and 9 omitted...)
