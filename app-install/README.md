@@ -13,7 +13,6 @@ This folder contains scripts for installing additional packages to PonyTrails.
 ### Audio
 * JACK2
 * Cadence
-* KXStudio
 
 ### Media Players / File Viewers
 * RhythmBox &lt;GNOME only>
@@ -24,33 +23,34 @@ This folder contains scripts for installing additional packages to PonyTrails.
 ### Development
 * C/C++: GCC
 * Go
-* Java: OpenJDK
-* Node.js
+* Java: OpenJDK 11
 * Python
 * Rust
 
+### System & Device Manipulation
+* CloneZilla
+* Boot-Repair: Repair and recover boot records.
+* GParted: A GUI disk partitioning tool.
+
 ### Utilities
 * LVM2 (`lvm2`): Support for LVM.
-* Boot-Repair: Repair and recover boot records.
 * FFmpeg
 * Flameshot: Fully-featured tool for taking screenshots.
 * GeoGebra
 * GoldenDict
-* GParted: A GUI disk partitioning tool.
 * GPAC: A toolbox which contains `MP4Box`
 * MKVToolnix
 * Qalculate!
 * qBitTorrent
 * QEMU (`qemu`, x86 and arm only)
 * SimpleScreenRecorder
-* Syncthing (`syncthing`): A decentralized file syncing tool.
 * uGet
 * virt-manager
 * (and 9 omitted...)
 
 ### Multilingual Input Method
-* Mozc (`ibus-mozc`): A fully-featured Japanese input method.
-* Rime (`ibus-rime`): A highly-customizable Chinese input method.
+* Mozc (`ibus-mozc`, GNONE only): A fully-featured Japanese input method.
+* Rime (`ibus-rime`, GNOME only): A highly-customizable Chinese input method.
 
 ### Fonts
 * Manrope
@@ -70,5 +70,13 @@ This folder contains scripts for installing additional packages to PonyTrails.
 * HexChat: An open-source IRC client.
 
 ## Browser Extensions (Firefox)
+* Dark Reader
+* Decentraleyes
+* HTTPS Everywhere
+* Privacy Possum
+* Proxy SwitchyOmega
+* Tabliss
+* uBlock Origin
+* User Agent Switcher and Manager
 
 ## Themes (GNOME Shell)
