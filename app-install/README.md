@@ -31,6 +31,7 @@ This folder contains scripts for installing additional packages to PonyTrails.
 
 ### Utilities
 * LVM2 (`lvm2`): Support for LVM.
+* Boot-Repair: Repair and recover boot records.
 * FFmpeg
 * Flameshot: Fully-featured tool for taking screenshots.
 * GeoGebra
