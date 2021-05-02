@@ -8,7 +8,6 @@ This folder contains scripts for installing additional packages to PonyTrails.
 * GIMP: Edit images in a professional manner.
 * ImageMagick: Image manipulation.
 * LibreOffice (`libreoffice`)
-* VSCodium
 
 ### Audio
 * JACK2
@@ -26,6 +25,7 @@ This folder contains scripts for installing additional packages to PonyTrails.
 * Java: OpenJDK 11
 * Python
 * Rust
+* `build-essentials`
 
 ### System & Device Manipulation
 * Boot-Repair: Repair and recover boot records.
@@ -36,6 +36,7 @@ This folder contains scripts for installing additional packages to PonyTrails.
 
 ### Utilities
 * LVM2 (`lvm2`): Support for LVM.
+* dig (`dnsutils`)
 * FFmpeg
 * Flameshot: Fully-featured tool for taking screenshots.
 * GeoGebra
@@ -50,18 +51,21 @@ This folder contains scripts for installing additional packages to PonyTrails.
 * SimpleScreenRecorder
 * tcpping: Ping via TCP 
 * tcptraceroute: Trace network routing via TCP.
-* Traceroute
+* traceroute
 * udpPing: Ping via UDP.
 * uGet
 * virt-manager
 * (and 9 omitted...)
 
 ### Multilingual Input Method
-* Mozc (`ibus-mozc`, GNONE only): A fully-featured Japanese input method.
+* Mozc (`ibus-mozc`): A fully-featured Japanese input method.
 * Rime (`ibus-rime`, GNOME only): A highly-customizable Chinese input method.
 
 ### Fonts
-* Manrope
+* Arimo (Sans-serif)
+* Cousine (Monospace)
+* Literata (Serif)
+* Manrope (Sans-serif)
 
 ### Security
 * BitWarden: An open-source password manager.
