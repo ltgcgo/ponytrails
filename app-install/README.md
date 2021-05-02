@@ -34,6 +34,12 @@ This folder contains scripts for installing additional packages to PonyTrails.
 * F3: Fight Flash Fraud!
 * GParted: A GUI disk partitioning tool.
 
+### File Optimizer
+* GPAC: A toolbox which contains `MP4Box`.
+* mozJPEG (`mozjpeg`)
+* `pngquant`
+* `go-avif`
+
 ### Utilities
 * LVM2 (`lvm2`): Support for LVM.
 * dig (`dnsutils`)
@@ -41,7 +47,6 @@ This folder contains scripts for installing additional packages to PonyTrails.
 * Flameshot: Fully-featured tool for taking screenshots.
 * GeoGebra
 * GoldenDict
-* GPAC: A toolbox which contains `MP4Box`.
 * HexEdit (CLI)
 * MKVToolnix
 * Netcat
