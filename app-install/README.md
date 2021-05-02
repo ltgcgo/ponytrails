@@ -82,6 +82,7 @@ This folder contains scripts for installing additional packages to PonyTrails.
 * HexChat: An open-source IRC client.
 
 ## Browser Extensions (Firefox)
+Check [AMO Collections](https://addons.mozilla.org/en-US/firefox/collections/15706102/yMLM8Tv9XQeHX0nN/) for full details.
 * Dark Reader
 * Decentraleyes
 * HTTPS Everywhere
