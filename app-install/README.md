@@ -58,6 +58,14 @@ Packages in this section will be present on both versions.
 * mozJPEG (`mozjpeg`)
 * PNGQwant (`pngqwant`)
 
+### Security
+* Aircrack-ng (aircrack-ng): Wireless network auditing tool.
+* [BitWarden](https://bitwarden.com/) _[Scripted Installation]_: An open-source password manager.
+* [GnuPG](`https://gnupg.org`) (`gnupg`): A free implementation of OpenPGP.
+* [KeePassXC](https://keepassxc.org) (`keepassxc`): An open-source password database manager.
+* macchanger (`macchanger`): Change network MAC address as one wishes.
+* [VeraCrypt](https://veracrypt.fr) _[Scripted Installation]_: A disk encryption & decryption tool.
+
 ### Chat Platforms
 * [Dino](https://dino.im/) (`dino-im`) _[Scripted Installation]_: An XMPP client.
 * [Session](https://getsession.org/) (`session-im`) _[Scripted Installation]_: Send no metadata, just messages.
