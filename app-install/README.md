@@ -99,6 +99,7 @@ Packages in this section will be present on both versions.
 * UDPPing (`custom: udpdiag.sh`) _[Scripted Installation]_
 * uGet (`uget`)
 * virt-manager (`virt-manager`)
+* zsh (`zsh`)
 
 ### Fonts
 * Arimo (Sans-sarif)
@@ -115,6 +116,7 @@ Packages in this section will only be present on GNOME Shell version, due to fla
 However, some packages may also be moved to be universal at some point.
 
 ### Text/Document Editing
+* Gedit (`gedit`)
 * GNOME LaTeX (`latexila`): A LaTeX editor.
 * [Marker](https://github.com/fabiocolacio/Marker) (`flatpak: com.github.fabiocolacio.marker`): A MarkDown editor.
 
@@ -145,12 +147,31 @@ However, some packages may also be moved to be universal at some point.
 ### Screencast
 * [Peek](https://github.com/phw/peek) (`peek`): A GIF recorder.
 
-### System Ultilities
+### System Utilities
 * GNOME Disks
+
+### Security
+* Seahorse (`seahorse`): A GNOME encryption interface.
 
 ### Themes
 * Flat Remix (`flat-remix-gtk`, `flat-remix-gnome`)
 * Papirus (`papirus-icon-theme`, `libreoffice-style-papirus`)
+
+### Other Utilities
+* Evince (`evince`): A document viewer for multiple document formats.
+* Getting Things GNOME! (`flatpak: org.gnome.GTG`): A personal tasks and TODO-list items organizer.
+* GNOME Break Timer (`flatpak: org.gnome.BreakTimer`): Keeps track of how much you are using the computer. 
+* GNOME Calendar (`gnome-calendar`): A simple and beautiful calendar application.
+* GNOME Clocks (`gnome-clocks`)
+* GNOME Contacts (`gnome-contacts`): All your contacts in one place.
+* GNOME Maps (`gnome-maps`)
+* GNOME System Monitor (`gnome-system-monitor`)
+* GNOME Terminal (`gnome-terminal`): Get lost, xTerm!
+* GNOME Tweaks (`gnome-tweaks`)
+* GNOME Usage (`gnome-usage`)
+* File Roller (`file-roller`): Archive decompressor.
+* Nautilus (`nautilus`): Default file manager.
+* PeaZip (`flatpak: io.github.peazip.PeaZip`): Archive compressor and decompressor.
 
 ## KDE version
 ### Development
