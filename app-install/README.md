@@ -2,6 +2,8 @@ This folder contains scripts to install required software to PonyTrails.
 
 PonyTrails has two major versions: **GNOME Shell version** and **KDE Plasma version**.
 
+Note than not all apps listed are going to be made into final stage. Some apps will be removed to decrease image size.
+
 ## Universal
 Packages in this section will be present on both versions.
 
