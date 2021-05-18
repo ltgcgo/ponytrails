@@ -82,6 +82,7 @@ This folder contains scripts for installing additional packages to PonyTrails.
 
 ### Messaging
 * Telegram Desktop
+* Session
 * Dino (`dino-im`): An open-source XMPP client.
 * Spectual: An open-source Matrix client.
 * HexChat: An open-source IRC client.
