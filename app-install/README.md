@@ -37,20 +37,20 @@ Packages in this section will be present on both versions.
 * [VLC](https://www.videolan.org/) (`vlc`): Needless to say anything.
 
 ### Media Manipulation
-* [Audacity] (`audacity`): A sound editor.
+* [Audacity](https://www.audacityteam.org/) (`audacity`): A sound editor.
 
 ### Chat Platforms
 * [Dino](https://dino.im/) (`dino-im`) _[Scripted Installation]_: An XMPP client.
 * [Session](https://getsession.org/) _[Scripted Installation]_: Send no metadata, just messages.
 * [Spectual](https://gitlab.com/spectral-im/spectral/) _[Scripted Installation]_: A Matrix client.
-* [Telegram](https://www.telegram.org/) _[Scripted Installation]_: A privacy-friendly, secure chatting platform.
-* ~~[Discord](https://discord.gg/) _[Scripted Installation]_: A proprietary voice chat platform.~~ Removed due to its proprietary nature.
+* ![Telegram](https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Telegram_2019_Logo.svg/32px-Telegram_2019_Logo.svg.png) [Telegram](https://www.telegram.org/) _[Scripted Installation]_: A privacy-friendly, secure chatting platform.
+* ~~![Discord]() [Discord](https://discord.gg/) _[Scripted Installation]_: A proprietary voice chat platform.~~ Removed due to its proprietary nature.
 
 ### Screencast
 * [SimpleScreenRecorder](https://www.maartenbaert.be/simplescreenrecorder/) (`simplescreenrecorder`)
 
 ### Other Utilities
-* [Remmina]
+* ![Remmina](https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Org.remmina.Remmina.png/32px-Org.remmina.Remmina.png) [Remmina](https://www.remmina.org) (`remmina`)
 
 ## GNOME version
 Packages in this section will only be present on GNOME Shell version, due to flavouring and/or compatibility issues.
@@ -65,15 +65,18 @@ However, some packages may also be moved to be universal at some point.
 * [Atom](https://atom.io/) (`atom`): A feature-rich IDE powered by Web, Node.js and Electron.
 
 ### Media Viewing/Playback
-* Lollypop (`flatpak: org.gnome.Lollypop`) _[Scripted Installation]_: An advanced and neat music library and player. Installed if RhythmBox isn't present.
-* RhythmBox (`rhythmbox`): A music library and a player. Might be replaced with Lollypop.
-* Shotwell (`shotwell`): A photo album manager.
+* [Lollypop](https://wiki.gnome.org/Apps/Lollypop) (`flatpak: org.gnome.Lollypop`) _[Scripted Installation]_: An advanced and neat music library and player. Installed if RhythmBox isn't present.
+* ![Rhythmbbox](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Rhythmbox_logo_3.4.4.svg/32px-Rhythmbox_logo_3.4.4.svg.png) [Rhythmbox](https://wiki.gnome.org/Apps/Rhythmox) (`rhythmbox`): A music library and a player. Might be replaced with Lollypop.
+* ![Shotwell](https://gitlab.gnome.org/GNOME/shotwell/raw/master/data/icons/hicolor/32x32/apps/org.gnome.Shotwell.png) [Shotwell](https://wiki.gnome.org/Apps/Shotwell) (`shotwell`): A photo album manager.
 
 ### Media Manipulation
-* [Darktable](https://www.darktable.org/) (`darktable`): A photography workflow app and a raw developer.
-* [GIMP](https://www.gimp.org/): What you expect from Photoshop, might exist here.
+* ![Darktable](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Darktable_icon.svg/32px-Darktable_icon.svg.png) [Darktable](https://www.darktable.org/) (`darktable`): A photography workflow app and a raw developer.
+* ![EasyTAG](https://gitlab.gnome.org/GNOME/easytag/raw/master/data/icons/32x32/org.gnome.EasyTAG.png) [EasyTAG](https://wiki.gnome.org/Apps/EasyTAG): Audio metadata editor.
+* ![GIMP](https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/The_GIMP_icon_-_gnome.svg/32px-The_GIMP_icon_-_gnome.svg.png) [GIMP](https://www.gimp.org/): What you expect from Photoshop, might exist here.
 * [ImageMagick](https://www.imagemagick.org/) (`imagemagick`): Convert, edit, or merge images.
-* [Pinta](https://www.pinta-project.com/) (`pinta`): Paint.NET for Linux.
+* ![Pinta](https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Pinta_icon.png/32px-Pinta_icon.png) [Pinta](https://www.pinta-project.com/) (`pinta`): Paint.NET for Linux.
+* ![Pitivi](https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/GNOME_Pitivi_icon_2019.svg/32px-GNOME_Pitivi_icon_2019.svg.png) [Pitivi](https://www.pitivi.org/) (`flatpak: org.pitivi.Pitivi`): A video editor.
+* ![Sound Juicer](https://gitlab.gnome.org/GNOME/sound-juicer/raw/master/data/sound-juicer-32.png) [Sound Juicer](https://wiki.gnome.org/Apps/SoundJuicer) (`sound-juicer`)：Audio CD ripping.
 
 ### Screencast
 * [Peek](https://github.com/phw/peek) (`peek`): A GIF recorder.
