@@ -157,6 +157,22 @@ However, some packages may also be moved to be universal at some point.
 * Flat Remix (`flat-remix-gtk`, `flat-remix-gnome`)
 * Papirus (`papirus-icon-theme`, `libreoffice-style-papirus`)
 
+### Shell Extensions
+* Always Indicator
+* Dash to Dock
+* Extensions
+* Force Quit
+* Freon
+* Lock Keys
+* No Top-Left Hot Corner
+* Open Weather
+* Sound Input/Output Device Chooser
+* Sound Percentage
+* Transparent Notification
+* Tray Icons: Reloaded
+* User Themes
+* Window is Ready - Notification Remover
+
 ### Other Utilities
 * Evince (`evince`): A document viewer for multiple document formats.
 * Getting Things GNOME! (`flatpak: org.gnome.GTG`): A personal tasks and TODO-list items organizer.
