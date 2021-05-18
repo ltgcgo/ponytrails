@@ -99,3 +99,4 @@ Check [AMO Collections](https://addons.mozilla.org/en-US/firefox/collections/157
 * User Agent Switcher and Manager
 
 ## Themes (GNOME Shell)
+* Flat-Remix
