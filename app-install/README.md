@@ -54,11 +54,13 @@ Packages in this section will be present on both versions.
 * [Audacity](https://www.audacityteam.org/) (`audacity`): A sound editor.
 
 ### Media Transcoder/Optimizer
+* CWebP (`cwebp`): Reference WebP encoder, from JPEG or PNG.
+* DWebP (`dwebp`): Decode WebP back to JPEG or PNG.
 * [FFmpeg](https://ffmpeg.org) (`ffmpeg`)
-* Go-AVIF (`go-avif`)
-* MKVToolNix (`mkvtoolnix`)
-* mozJPEG (`mozjpeg`)
-* PNGQwant (`pngqwant`)
+* Go-AVIF (`go-avif`): Encode or decode AVIF images.
+* MKVToolNix (`mkvtoolnix`): Manipulate Matroska files.
+* mozJPEG (`mozjpeg`): Optimize JPEG files.
+* PNGQwant (`pngqwant`): Optimize PNG files.
 
 ### Security
 * Aircrack-ng (aircrack-ng): Wireless network auditing tool.
