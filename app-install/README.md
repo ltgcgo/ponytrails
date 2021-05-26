@@ -11,7 +11,7 @@ Packages in this section will be present on both versions.
 * [Realtek RT8192 EU](https://github.com/Mange/rtl8192eu-linux-driver/)
 
 ### Text/Document Editing
-* [LibreOffice](https://www.libreoffice.org/) (`flatpak: org.libreoffice.LibreOffice`)
+* [LibreOffice](https://www.libreoffice.org/) (`libreoffice`)
 
 ### Productivity
 * [Firefox](https://www.mozilla.org/) (`firefox`): A privacy-first browser.
@@ -135,7 +135,7 @@ However, some packages may also be moved to be universal at some point.
 * Rime (`ibus-rime`)
 
 ### Media Viewing/Playback
-* [Lollypop](https://wiki.gnome.org/Apps/Lollypop) (`flatpak: org.gnome.Lollypop`) _[Scripted Installation]_: An advanced and neat music library and player. Installed if RhythmBox isn't present.
+* [Lollypop](https://wiki.gnome.org/Apps/Lollypop) (`lollypop`) _[Scripted Installation]_: An advanced and neat music library and player. Installed if RhythmBox isn't present.
 * ![Rhythmbbox](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Rhythmbox_logo_3.4.4.svg/32px-Rhythmbox_logo_3.4.4.svg.png) [Rhythmbox](https://wiki.gnome.org/Apps/Rhythmox) (`rhythmbox`): A music library and a player. Might be replaced with Lollypop.
 * ![Shotwell](https://gitlab.gnome.org/GNOME/shotwell/raw/master/data/icons/hicolor/32x32/apps/org.gnome.Shotwell.png) [Shotwell](https://wiki.gnome.org/Apps/Shotwell) (`shotwell`): A photo album manager.
 
@@ -145,7 +145,7 @@ However, some packages may also be moved to be universal at some point.
 * ![GIMP](https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/The_GIMP_icon_-_gnome.svg/32px-The_GIMP_icon_-_gnome.svg.png) [GIMP](https://www.gimp.org/): What you expect from Photoshop, might exist here.
 * [ImageMagick](https://www.imagemagick.org/) (`imagemagick`): Convert, edit, or merge images.
 * ![Pinta](https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Pinta_icon.png/32px-Pinta_icon.png) [Pinta](https://www.pinta-project.com/) (`pinta`): Paint.NET for Linux.
-* ![Pitivi](https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/GNOME_Pitivi_icon_2019.svg/32px-GNOME_Pitivi_icon_2019.svg.png) [Pitivi](https://www.pitivi.org/) (`flatpak: org.pitivi.Pitivi`): A video editor.
+* ![Pitivi](https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/GNOME_Pitivi_icon_2019.svg/32px-GNOME_Pitivi_icon_2019.svg.png) [Pitivi](https://www.pitivi.org/) (`pitivi`): A video editor.
 * ![Sound Juicer](https://gitlab.gnome.org/GNOME/sound-juicer/raw/master/data/sound-juicer-32.png) [Sound Juicer](https://wiki.gnome.org/Apps/SoundJuicer) (`sound-juicer`)：Audio CD ripping.
 
 ### Screencast
