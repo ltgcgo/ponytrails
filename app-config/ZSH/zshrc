@@ -52,9 +52,15 @@ else
 fi
 
 # Via SSH or not?
-termType="term"
 if [ "$SSH_CLIENT" != "" ] ; then
 	termType="sshd"
+	export SSHD_CLIENT=$SSH_CLIENT
+else
+	if [ "$SSHD_CLIENT" != "" ] ; then
+		termType="sshd"
+	else
+		termType="term"
+	fi
 fi
 
 # Display current screen
