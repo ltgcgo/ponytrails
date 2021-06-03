@@ -1,0 +1,10 @@
+unzip
+zip
+bind9-dnsutils
+curl
+bash
+apt-transport-https
+software-properties-common
+zsh
+tree
+proxychains4
