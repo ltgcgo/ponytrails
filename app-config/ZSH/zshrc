@@ -76,6 +76,6 @@ if [ "$(whoami)" != "root" ] ; then
 	shellSymbol="\$"
 fi
 
-PS1="%b%F{white}[%B%F{green}ZSH$customDeviceName$screenSupport%b%F{white}] %B%F{green}%99<...<%~\
+PS1="%b%F{white}[%B%F{green}ZSH$screenSupport$customDeviceName%b%F{white}] %B%F{green}%99<...<%~\
 %}%F{white}
 ${sudoInfo}%B%F{cyan}%n%b%F{white}:%B%F{yellow}$termType%b%F{white}-%B%F{yellow}$shellCount %B%F{white}$shellSymbol %b%f%k"
