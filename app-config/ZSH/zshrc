@@ -37,10 +37,10 @@ zstyle ':vcs_info:git*' formats '(%b) '
 
 # Custom device name?
 if [ -e "$HOME/.customShellName" ] ; then
-	customDeviceName="%B%F{green}$(cat $HOME/.customShellName)"
+	customDeviceName=" %B%F{green}$(cat $HOME/.customShellName)"
 else
 	if [ -e "/etc/zsh/.customShellName" ] ; then
-		customDeviceName="%B%F{yellow}$(cat /etc/zsh/.customShellName)"
+		customDeviceName=" %B%F{yellow}$(cat /etc/zsh/.customShellName)"
 	fi
 fi
 
@@ -62,6 +62,11 @@ if [ "$STY" != "" ] ; then
 	screenSupport="%b%F{white}@%B%F{yellow}$STY"
 fi
 
+# Use sudo
+if [ "$SUDO_USER" ] ; then
+	sudoInfo="%B%F{blue}$SUDO_USER%b%F{white}>"
+fi
+
 # Use ZSH in screens by default instead
 SHELL="$(which zsh)"
 
@@ -73,4 +78,4 @@ fi
 
 PS1="%b%F{white}[%B%F{green}ZSH$customDeviceName$screenSupport%b%F{white}] %B%F{green}%99<...<%~\
 %}%F{white}
-%B%F{cyan}%n%b%F{white}:%B%F{yellow}$termType%b%F{white}-%B%F{yellow}$shellCount %B%F{white}$shellSymbol %b%f%k"
+${sudoInfo}%B%F{cyan}%n%b%F{white}:%B%F{yellow}$termType%b%F{white}-%B%F{yellow}$shellCount %B%F{white}$shellSymbol %b%f%k"
