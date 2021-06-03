@@ -67,6 +67,11 @@ if [ "$SUDO_USER" ] ; then
 	sudoInfo="%B%F{blue}$SUDO_USER%b%F{white}>"
 fi
 
+# Use doas
+if [ "$DOAS_USER" != "" ] ; then
+	sudoInfo="%B%F{blue}$DOAS_USER%b%F{white}>"
+fi
+
 # Use ZSH in screens by default instead
 SHELL="$(which zsh)"
 
