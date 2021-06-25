@@ -14,7 +14,7 @@ Packages in this section will be present on both versions.
 * [LibreOffice](https://www.libreoffice.org/) (`libreoffice`)
 
 ### Productivity
-* [Firefox](https://www.mozilla.org/) (`firefox`): A privacy-first browser.
+* [Firefox](https://www.mozilla.org/) (`firefox`) _[Scripted Installation]_: A privacy-first browser.
 * [IPFS](https://ipfs.io/) (`ipfs`) _[Scripted Installation]_: IPFS is the distributed Web.
 
 ### Audio System
@@ -43,7 +43,6 @@ Packages in this section will be present on both versions.
 
 ### Mathematics
 * GeoGebra (`geogebra`) _[Scripted Installation]_
-* Qalculate! (`qalculate`)
 
 ### Media Viewing/Playback
 * [Ruffle-RS](https://ruffle.rs) _[Scripted Installation]_: Flash Player written in Rust.
@@ -54,17 +53,17 @@ Packages in this section will be present on both versions.
 * [Audacity](https://www.audacityteam.org/) (`audacity`): A sound editor.
 
 ### Media Transcoder/Optimizer
-* CWebP (`cwebp`): Reference WebP encoder, from JPEG or PNG.
-* DWebP (`dwebp`): Decode WebP back to JPEG or PNG.
+* CWebP (`cwebp`) _[Scripted Installation]_: Reference WebP encoder, from JPEG or PNG.
+* DWebP (`dwebp`) _[Scripted Installation]_: Decode WebP back to JPEG or PNG.
 * [FFmpeg](https://ffmpeg.org) (`ffmpeg`)
-* Go-AVIF (`go-avif`): Encode or decode AVIF images.
-* MKVToolNix (`mkvtoolnix`): Manipulate Matroska files.
-* mozJPEG (`mozjpeg`): Optimize JPEG files.
-* PNGQwant (`pngqwant`): Optimize PNG files.
+* Go-AVIF (`go-avif`) _[Scripted Installation]_: Encode or decode AVIF images.
+* MKVToolNix (`mkvtoolnix-gui`): Manipulate Matroska files.
+* mozJPEG (`mozjpeg`) _[Scripted Installation]_: Optimize JPEG files.
+* PNGQwant (`pngqwant`) _[Scripted Installation]_: Optimize PNG files.
 
 ### Security
-* Aircrack-ng (aircrack-ng): Wireless network auditing tool.
-* [BitWarden](https://bitwarden.com/) _[Scripted Installation]_: An open-source password manager.
+* Aircrack-ng (`aircrack-ng`): Wireless network auditing tool.
+* ~~[BitWarden](https://bitwarden.com/) _[Scripted Installation]_: An open-source password manager.~~
 * [GnuPG](`https://gnupg.org`) (`gnupg`): A free implementation of OpenPGP.
 * [KeePassXC](https://keepassxc.org) (`keepassxc`): An open-source password database manager.
 * macchanger (`macchanger`): Change network MAC address as one wishes.
@@ -125,7 +124,7 @@ However, some packages may also be moved to be universal at some point.
 * [Marker](https://github.com/fabiocolacio/Marker) (`flatpak: com.github.fabiocolacio.marker`): A MarkDown editor.
 
 ### Development
-* [Atom](https://atom.io/) (`atom`): A feature-rich IDE powered by Web, Node.js and Electron.
+* [Atom](https://atom.io/) (`atom`) _[Scripted Installation]_: A feature-rich IDE powered by Web, Node.js and Electron.
 
 ### Software Installation
 * GNOME Software (`gnome-software`)
@@ -179,8 +178,8 @@ However, some packages may also be moved to be universal at some point.
 
 ### Other Utilities
 * Evince (`evince`): A document viewer for multiple document formats.
-* Getting Things GNOME! (`flatpak: org.gnome.GTG`): A personal tasks and TODO-list items organizer.
-* GNOME Break Timer (`flatpak: org.gnome.BreakTimer`): Keeps track of how much you are using the computer. 
+* ~~Getting Things GNOME! (`flatpak: org.gnome.GTG`): A personal tasks and TODO-list items organizer.~~
+* ~~GNOME Break Timer (`flatpak: org.gnome.BreakTimer`): Keeps track of how much you are using the computer. ~~
 * GNOME Calendar (`gnome-calendar`): A simple and beautiful calendar application.
 * GNOME Clocks (`gnome-clocks`)
 * GNOME Contacts (`gnome-contacts`): All your contacts in one place.
@@ -196,3 +195,6 @@ However, some packages may also be moved to be universal at some point.
 ## KDE version
 ### Development
 * [VSCodium](https://vscodium.com/) (`vscodium`): Visual Studio Code, but every piece of tracking code from Microsoft is removed.
+
+### Mathematics
+* Qalculate! (`qalculate`)
