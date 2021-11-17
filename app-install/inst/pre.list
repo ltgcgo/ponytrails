@@ -1,19 +1,15 @@
-unzip
-zip
+unzip zip
 bzip2 lzip lziprecover
 dnsutils
 curl
-bash
+bash zsh
 apt-transport-https
 software-properties-common
-zsh
 tree
 lvm2
-gnupg
-gpgv
+gnupg gpgv
 git
 proxychains4
-netcat
-pv
+netcat pv
 xorg
 doas sudo-
