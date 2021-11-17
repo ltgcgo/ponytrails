@@ -1,6 +1,9 @@
 Welcome to PonyTrails, a custom Linux flavour!
 Website: https://www.ltgc.cc/project/view?p=/ponytrails
 
+Shell in screens: screen -S name
+Proxied shells:   pc -q $0
+
 Join the discussion: https://www.ltgc.cc/view?p=/discuss
 
 The programs included with the system are free software;
