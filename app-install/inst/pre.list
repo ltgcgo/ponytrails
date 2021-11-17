@@ -16,3 +16,4 @@ proxychains4
 netcat
 pv
 xorg
+doas sudo-
