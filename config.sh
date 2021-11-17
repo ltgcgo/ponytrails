@@ -2,11 +2,11 @@
 reset="\e[0m"
 title="\e[46m\e[30m"
 petc="Press Enter to continue."
-function showTitle (
+function showTitle {
 	clear
 	echo -e "$title                PonyTrails Configurator - GNOME                      $reset"
 	echo ""
-)
+}
 
 if [ "$(whoami)" != "root" ] ; then
 	echo "You must run as root."
