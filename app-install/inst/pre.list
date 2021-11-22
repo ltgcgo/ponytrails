@@ -15,3 +15,4 @@ xorg
 doas sudo-
 psmisc
 screen
+htop
