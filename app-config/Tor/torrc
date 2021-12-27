@@ -1,0 +1,7 @@
+ExcludeNodes {kp},{ir},{cu},{cn},{hk},{mo},{sy},{pk},{ru},{il}
+StrictNodes 1
+ClientUseIPv6 1
+IPv6Exit 1
+
+ControlPort 127.0.0.1:9051
+SocksPort 127.0.0.1:9050

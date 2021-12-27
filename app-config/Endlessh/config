@@ -1,0 +1,6 @@
+Port 22
+Delay 8000
+MaxLineLength 28
+MaxClients 1536
+LogLevel 1
+BindFamily 0
