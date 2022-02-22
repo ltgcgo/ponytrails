@@ -1,5 +1,5 @@
 unzip zip
-bzip2 lzip lziprecover
+bzip2 lzip lziprecover brotli
 dnsutils
 curl
 bash zsh
