@@ -1,7 +1,7 @@
 #!/usr/bin/bash
-cprefix="../../app-config"
+cprefix="../../configs"
 if [ "$(whoami)" == "root" ] ; then
-	cp -nv $cprefix/Skel/.zshrc ~/.zshrc
+	cp -nv $cprefix/SystemEtc/skel/.zshrc ~/.zshrc
 	chsh -s $(which zsh) && echo "Default shell switched to ZSH."
 	if [ -e "$PREFIX/home" ] ; then
 		echo "Copying ZSH default configuration to every applicable user..."
@@ -14,7 +14,7 @@ if [ "$(whoami)" == "root" ] ; then
 				if [ -e "$PREFIX/home/$curUser/.zshrc" ] ; then
 					echo "skipped."
 				else
-					cp -n $cprefix/Skel/.zshrc "$PREFIX/home/$curUser/.zshrc"
+					cp -n $cprefix/SystemEtc/skel/.zshrc "$PREFIX/home/$curUser/.zshrc"
 					echo "success."
 					echo "Forcing ZSH usage for user [$curUser] ..."
 					chsh $curUser -s $(which zsh)
