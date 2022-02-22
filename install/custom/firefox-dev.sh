@@ -10,7 +10,8 @@ tar jxvf firefox-dev.tar.bz2
 rm firefox-dev.tar.bz2
 mv firefox firefox-dev
 echo "Creating icons in menus..."
-cd $lastPWD
-desktop-file-install ../../app-config/FirefoxDevEdition/firefox-dev.desktop
+cd $lastPwd
+desktop-file-install ../../configs/FirefoxDevEdition/firefox-dev.desktop
+cp ../../configs/FirefoxDevEdition/firefox-dev.desktop $PREFIX/usr/share/applications/
 echo "Done."
 exit
