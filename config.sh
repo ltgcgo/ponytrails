@@ -26,7 +26,7 @@ else
 	fi
 	showTitle
 	echo "Switching to software installation mode..."
-	cd app-install
+	cd install
 	printf "You are going to prepare basic installation. $petc"
 	read uselessVar
 	echo "Syncing repositories..."
