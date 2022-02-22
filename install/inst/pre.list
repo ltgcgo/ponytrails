@@ -11,7 +11,6 @@ gnupg gpgv
 git
 proxychains4
 netcat pv
-xorg
 doas sudo-
 psmisc
 screen
